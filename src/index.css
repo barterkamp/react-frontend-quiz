@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./assets/fonts/Rubik-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./assets/fonts/Rubik-Medium.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./assets/fonts/Rubik-Italic.ttf') format('truetype');
+        font-style: italic;
+        font-weight: normal;
+    }
+}
